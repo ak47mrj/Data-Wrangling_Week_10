@@ -26,7 +26,7 @@ ui <- fluidPage(
 )
 
 
-#Define server for UI
+#Define server for app
 server <- function(input, output){
   reduced_df <- reactive({
     get_acs(
